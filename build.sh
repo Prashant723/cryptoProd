@@ -1,0 +1,1 @@
+g++ -g -O3 -std=c++0x  main.cpp processor.cpp strategy.cpp binance/md.cpp okex/md.cpp binance/orderBook.cpp okex/orderBook.cpp -lcurl  -lboost_system -lcrypto -lssl  -I/home/ubuntu/websocketpp -D_WEBSOCKETPP_CPP11_STL_ -I/home/ubuntu/rapidjson/include/
